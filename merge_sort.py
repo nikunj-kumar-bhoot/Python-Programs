@@ -24,3 +24,4 @@ def merge_sort(l):
     right=merge_sort(l[mid:])
     return mergeArrays(left,right)
 #print(merge_sort([4,1,7,9,2,5,3]))
+#TC=O(NlogN), SC=O(N)
