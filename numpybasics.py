@@ -1,0 +1,18 @@
+import numpy as np
+data=np.array([1,2,3,4])
+data=data*2
+print(type(data))
+print(data)
+b=np.zeros(5)
+print(b)
+c=np.ones(3)
+print(c)
+d=np.arange(1,6)
+print(d)
+print(data>4)
+print(data.sum())
+print(data.mean())
+print(data.max())
+print(data.min())
+matrix3d=np.array([[[1,2],[3,4]],[[5,6],[7,8]]])
+print(matrix3d)
